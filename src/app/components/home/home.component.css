@@ -1,0 +1,21 @@
+.owl-theme .owl-nav [class*=owl-] {
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px 17px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: black;
+}
+.owl-theme{
+    position: relative;
+}
+.owl-next{
+    position: absolute;
+    top: 220px;
+    right: 0;
+}
+.owl-prev{
+    position: absolute;
+    left: 0;
+    top: 220px;
+}

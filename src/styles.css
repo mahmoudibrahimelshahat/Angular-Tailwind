@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active{
+      @apply text-[#081158]
+    }
+}
+.owl-theme{
+  position: relative;
+}
+.owl-next{
+  position: absolute;
+  top: 105px;
+  right: -64px;
+}
+.owl-prev{
+  position: absolute;
+  left: -64px;
+  top: 105px;
+}
+.owl-theme .owl-nav [class*=owl-] {
+  font-size: 14px;
+  border: 1px solid #fff;
+  padding: 10px 17px;
+  border-radius: 100%;
+  background-color: black;
+  color: #fff;
+  transition: 0.8s;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+ background-color: red;
+ color: #fff;
+}
